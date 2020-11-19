@@ -121,8 +121,6 @@ int main(void)
                   }
                 }
                 printf("%c", c);
-                p = 0; /* reset padding of current integer */
-                sign = 0;
                 input_state = 1; /* start process next integer */
                 break;
         }
