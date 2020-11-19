@@ -108,10 +108,8 @@ int main(void)
                     input_state = 4;
                     break;
                 } else {
-                    if (c != '\n') {
-                        input_state = -1;
-                        break;
-                    }
+                    input_state = -1;
+                    break;
                 }
                 input_state = 5;
                 break;
@@ -122,9 +120,7 @@ int main(void)
                     printf("%c", '0');
                   }
                 }
-                if (c != '\n') {
-                    printf("%c", c);
-                }
+                printf("%c", c);
                 input_state = 1; /* start process next integer */
                 break;
         }
