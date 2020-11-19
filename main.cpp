@@ -99,7 +99,6 @@ int main(void)
                     break;
                 }
                 if (c == ' ' || c == '\t' || c == '\r') { /* skip trailing spaces */
-                    //printf("%c", c); /* print input delimiters */
                     input_state = 5;
                     break;
                 }
@@ -123,7 +122,9 @@ int main(void)
                     printf("%c", '0');
                   }
                 }
-                printf("%c", c);
+                if (c != '\n') {
+                    printf("%c", c);
+                }
                 input_state = 1; /* start process next integer */
                 break;
         }
