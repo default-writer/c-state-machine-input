@@ -99,7 +99,6 @@ int main(void)
                     break;
                 }
                 if (c == ' ' || c == '\t' || c == '\r') { /* skip trailing spaces */
-                    //printf("%c", c); /* print input delimiters */
                     input_state = 5;
                     break;
                 }
