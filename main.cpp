@@ -42,7 +42,7 @@ int main(void)
                 sign = 0;
                 i++; /* advance input by one char */
                 c = getchar();
-                if (c == '\0') {
+                if (c == '\n') {
                     input_state = 0;
                     break;
                 }
@@ -69,7 +69,7 @@ int main(void)
                 }
                 i++; /* advance input by one char */
                 c = getchar();
-                if (c == '\0') {
+                if (c == '\n') {
                     input_state = -1;
                     break;
                 }
@@ -94,7 +94,7 @@ int main(void)
             case 4:
                 i++; /* advance input by one char */
                 c = getchar();
-                if (c == '\0') {
+                if (c == '\n') {
                     input_state = 5;
                     break;
                 }
