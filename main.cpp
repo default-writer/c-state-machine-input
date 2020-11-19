@@ -23,7 +23,7 @@ int main(void)
 
     /* 1 start process input character */
     /* 2 3 4 process input of current integer characters */
-    /* 5 end process input of currnet integer characters */
+    /* 5 end process input of current integer characters */
 
     int input_state = 1; /* default input state */
 
