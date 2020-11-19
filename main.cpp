@@ -56,6 +56,10 @@ int main(void)
                     input_state = 2;
                     break;
                 }
+                if (c == '\n') {
+                    input_state = 0;
+                    break;
+                }
                 p = 0;
                 input_state = 3;
                 break;
