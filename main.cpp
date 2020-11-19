@@ -109,7 +109,7 @@ int main(void)
                     input_state = 4;
                     break;
                 } else {
-                    if (c != '\n'){
+                    if (c != '\n') {
                         input_state = -1;
                         break;
                     }
