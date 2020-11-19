@@ -127,10 +127,5 @@ int main(void)
                 break;
         }
     }
-    printf("\n");
-    /* assertions */
-    if (input_state == -1) {
-      printf("error at position %d", i);
-    }
     return input_state;
 }
