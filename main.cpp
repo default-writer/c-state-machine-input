@@ -110,6 +110,9 @@ int main(void)
                     printf("%c", c);
                     input_state = 4;
                     break;
+                } else {
+                    input_state = -1;
+                    break;
                 }
                 input_state = 5;
                 break;
